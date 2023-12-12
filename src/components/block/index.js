@@ -1,1 +1,2 @@
-export { default as AdminSummary } from "./AdminSummary";
+export { default as TimeBlock } from "./TimeBlock";
+export { default as AdminSummaryBlock } from "./AdminSummaryBlock";

@@ -12,3 +12,4 @@ export { default as SVGTimeoff } from "./SVGTimeoff";
 export { default as SVGAdd } from "./SVGAdd";
 export { default as SVGIncrease } from "./SVGIncrease";
 export { default as SVGDecrease } from "./SVGDecrease";
+export { default as SVGSun } from "./SVGSun";
