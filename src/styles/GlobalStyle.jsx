@@ -5,7 +5,6 @@ const GlobalStyle = createGlobalStyle`
     :root {
         --primary-color: #3354F4;
         --font-color: #252C58;
-        --light-color: #FFFFFF
         --activation-color: ##E6EFFC;
         --background-color: #F1F2F6;
         --gray-lv1-color: #F6F6F6;
@@ -29,8 +28,16 @@ const GlobalStyle = createGlobalStyle`
     ${reset}
 
     @font-face {
-        font-family: 'Pretendard';
+        font-family: 'Pretendard-Light';
         src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-weight: 200;
+        font-style: lighter;
+    }
+
+    @font-face {
+        font-family: 'Pretendard-Regular';
+        src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-weight: 400;
         font-style: normal;
     }
 
@@ -41,6 +48,12 @@ const GlobalStyle = createGlobalStyle`
 
     html {
         font-size: 62.5%;
+        background-color: var(--background-color);
+
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: var(--font-color);
     }
 
     p {
