@@ -28,7 +28,7 @@ const Wrap = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1229px;
+  width: 100%;
   height: 83px;
   border-radius: 15px;
   box-shadow: 0px 8px 28px 0px rgba(72, 89, 102, 0.1);
