@@ -5,7 +5,6 @@ const GlobalStyle = createGlobalStyle`
     :root {
         --primary-color: #3354F4;
         --font-color: #252C58;
-        --light-color: #FFFFFF
         --activation-color: ##E6EFFC;
         --background-color: #F1F2F6;
         --gray-lv1-color: #F6F6F6;
@@ -41,6 +40,12 @@ const GlobalStyle = createGlobalStyle`
 
     html {
         font-size: 62.5%;
+        background-color: var(--background-color);
+
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: var(--font-color);
     }
 
     p {
