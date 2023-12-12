@@ -5,6 +5,7 @@ const GlobalStyle = createGlobalStyle`
     :root {
         --primary-color: #3354F4;
         --font-color: #252C58;
+        --light-color: #FFFFFF
         --activation-color: ##E6EFFC;
         --background-color: #F1F2F6;
         --gray-lv1-color: #F6F6F6;
@@ -40,6 +41,30 @@ const GlobalStyle = createGlobalStyle`
 
     html {
         font-size: 62.5%;
+    }
+
+    p {
+        color: var(--font-color);
+    }
+
+
+    input {
+        border-radius: 10px;
+        color: var(--font-color);
+        padding: 11px 15px;
+
+        &:focus {
+            outline: 2px solid var(--primary-color);
+        }
+        
+        &::placeholder {
+            color: var(--gray-lv2-color);
+        }
+    }
+
+    button {
+        border: none;
+        cursor: pointer;
     }
 `;
 
