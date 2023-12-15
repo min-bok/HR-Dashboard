@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/HR-Dashboard/static/js/main.bf29b6fc.js",
+    "main.js": "/HR-Dashboard/static/js/main.a2c6cda2.js",
     "index.html": "/HR-Dashboard/index.html",
-    "main.bf29b6fc.js.map": "/HR-Dashboard/static/js/main.bf29b6fc.js.map"
+    "main.a2c6cda2.js.map": "/HR-Dashboard/static/js/main.a2c6cda2.js.map"
   },
   "entrypoints": [
-    "static/js/main.bf29b6fc.js"
+    "static/js/main.a2c6cda2.js"
   ]
 }
