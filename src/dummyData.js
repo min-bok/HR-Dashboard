@@ -51,3 +51,39 @@ export const summaryData = [
     change: "increase",
   },
 ];
+
+export const lineChartData = [
+  {
+    id: "data",
+    data: [
+      {
+        x: "01 Aug",
+        y: 60,
+      },
+      {
+        x: "02 Aug",
+        y: 75,
+      },
+      {
+        x: "03 Aug",
+        y: 60,
+      },
+      {
+        x: "04 Aug",
+        y: 75,
+      },
+      {
+        x: "05 Aug",
+        y: 91,
+      },
+      {
+        x: "06 Aug",
+        y: 58,
+      },
+      {
+        x: "07 Aug",
+        y: 78,
+      },
+    ],
+  },
+];
